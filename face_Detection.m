@@ -5,7 +5,7 @@ FDetect = vision.CascadeObjectDetector;
 %Read the input image
 Image = imread('k.jpg');
 subplot(1,2,1),imshow(Image);
-// hima her
+// hima her 2
 %Returns Bounding Box values based on number of objects
 BB = step(FDetect,Image);
 
